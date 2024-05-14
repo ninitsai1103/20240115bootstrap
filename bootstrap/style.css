@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #4BA87D;
+    --primary-font-family: Raleway, "san-serif";
+    --second-font-family: "Playfair Display", "san serif";
+}
+body {
+    width: 100%;
+}
+.custom-border-color {
+    border-color: var(--primary-color) !important;
+}
+.custom-bg-color {
+    background-color: var(--primary-color) !important;
+}
+.custom-text-color {
+    color: var(--primary-color) !important;
+}
+.btn-no-border-radius {
+    border-radius: 0; /* 取消圓角 */
+}
+.custom-title-text {
+    font-family: var(--primary-font-family);
+    font-weight: 900;
+    font-size: 35px;
+}
+.custom-content-text {
+    font-family: var(--primary-font-family);
+    font-weight: 800;
+    font-size: 16px;
+}
+.custom-content-btn-text {
+    font-family: var(--primary-font-family);
+    font-weight: 900;
+    font-size: 8px;
+}
+.custom-width1 {
+    width: 45%;
+}
+.custom-width2 {
+    width: 65%;
+}
+.md-tryget-btn-text {
+    font-family: var(--primary-font-family);
+    font-weight: 900;
+    font-size: 13px;
+}
+.custom-md-opening-text {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.custom-opening-text {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.md-title-position {
+    position: absolute;
+    top: -50px;
+    
+}
+
+.custom-start-text {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.h1-md {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.h1 {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.custom-sub-opening-text {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 19px;
+}
+.custom-sub-opening-md-text {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 12px;
+}
+.custom-bg-title-img {
+    background: url(hero\ photo.png) right center no-repeat;
+    object-fit: none;
+}
+/* .custom-bg-subtitle-img {
+    background: url(VIDEO.png) center center no-repeat;
+    object-fit: none;
+} */
+
+.learnbtn {
+    position: absolute;
+    bottom: 100px;
+    left: 43%;
+}
+.learn-md-btn {
+    position: absolute;
+    bottom: 30px;
+}
+.classBgFrame {
+    width: 330px;
+    height: 240px;
+}
+.class-md-BgFrame {
+    width: 295px;
+    height: 200px;
+}
+.classBgImg1 {
+    background: url(photo3.png) no-repeat;
+    background-size: cover;
+}
+.classBgImg2 {
+    background: url(photo4.png) no-repeat;
+    background-size: cover;
+}
+.classBgImg3 {
+    background: url(photo5.png) no-repeat;
+    background-size: cover;
+}
+.custom-join-text {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 19px;
+}
+.custom-info-text {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;
+}
+.custom-md-info-text {
+    font-family: var(--second-font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+}
+.custom-thank-text {
+    font-family: var(--primary-font-family);
+    font-weight: 300;
+    font-size: 16px;
+}
+.custom-last-button-text {
+    font-family: var(--primary-font-family);
+    font-weight: 900;
+    font-size: 16px;
+}
+.custom-copy-text {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 15px;
+}
